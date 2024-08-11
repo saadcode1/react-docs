@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.bg-div{
+    background-color: rgb(34, 35, 35);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bg-div h2{
+ position: absolute;
+ margin-top: -35vw;
+ color:  rgb(74, 75, 76);
+}
+h1{
+    font-size: 20vw;
+    color: rgb(74, 75, 76);
+}
+.d:hover{
+    color: orange;
+    cursor: pointer;
+}
+.o:hover{
+    color: rgb(0, 255, 42);
+    cursor: pointer;
+}
+.c:hover{
+    color: rgb(255, 0, 238);
+    cursor: pointer;
+}
+.s:hover{
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+}

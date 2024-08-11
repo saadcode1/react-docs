@@ -1,0 +1,39 @@
+.foreground{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color:transparent;
+    display: flex;
+    justify-content:baseline;
+    gap:1vw;
+}
+.card{
+    margin-top: 1vw;
+    width: 14vw;
+    height: 18vw;
+    background-color: rgb(216, 239, 239);
+    border-radius: 15%;
+}
+.desc-icon{
+    padding: 1vw;
+    text-align: justify;
+}
+.desc-icon h4{
+    margin-top: 4%;
+}
+.data-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: calc(100% - 80px);
+}
+.footer-div{
+    background-color: green;
+    width:100%;
+    height:50% !important;
+    border-radius:0 0 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
